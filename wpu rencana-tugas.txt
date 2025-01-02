@@ -1,7 +1,6 @@
 Rencana sehat
 -konsisten olahraga angkat beban
 *otot tangan
-^tangan samping
 *otot dada
 ^dada atas
 ^dada bawah
