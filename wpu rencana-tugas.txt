@@ -1,8 +1,11 @@
 Rencana sehat
 -konsisten olahraga angkat beban
 *otot tangan
+^tangan samping
 *otot dada
+^dada bawah
 -murajaah
 -konsisten olahraga push-up
 -konsisten belajar
 -konsisten membaca quran
+-konsisten tidur tepat waktu
