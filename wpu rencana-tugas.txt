@@ -3,6 +3,7 @@ Rencana sehat
 *otot tangan
 ^tangan samping
 *otot dada
+^dada atas
 ^dada bawah
 -murajaah
 -konsisten olahraga push-up
