@@ -1,0 +1,27 @@
+#!/bin/bash
+while true; do
+    echo "======================================"
+    echo "            SIMPLE CHECK              "
+    echo "======================================"
+    echo "1. Tampilkan Waktu Sekarang"
+    echo "2. Tampilkan Daftar File di Direktori"
+    echo "3. Periksa Penggunaan Disk"
+    echo "4. Menampilkan penggunaan memori"
+    echo "5. Menampilkan pengguna sedang login"
+    echo "6. Keluar"
+    echo "======================================"
+    read -p "Pilih opsi [1-6]: " pilihan
+    case $pilihan in
+        1) echo "Waktu sekarang: $(date)" ;;
+        2) echo "Daftar file di direktori saat ini:"
+          ls -la ;;
+        3) echo "Penggunaan disk saat ini:" 
+          df -h ;;
+        4) echo "Memori yang di gunakan saat ini:"
+           free -h ;;
+	5) echo "Yang login saat ini:"
+           whoami ;;
+        6) read -p "Terimakasih telah masuk kesini, tekan [Enter] untuk keluar"; exit 0;;
+        *) echo "Opsi tidak valid, silakan pilih antara 1-4." ;;
+    esac
+done
