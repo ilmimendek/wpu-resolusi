@@ -1,7 +1,10 @@
 Rencana sehat
 -konsisten olahraga angkat beban
 *otot tangan
+^lengan
+^dan pergelangan lengan
 *otot dada
+^dada samping
 -murajaah
 -konsisten olahraga push-up
 -konsisten belajar
